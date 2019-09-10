@@ -1,0 +1,278 @@
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+nav a{
+  color: white;
+  text-shadow: black;
+  font-size: 2em;
+}
+.navbar-brand {
+  font-size: 3em;
+}
+
+.black a{
+  color: black;
+}
+.margin_set {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.changing_component {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.hover_me {
+  transition: 0.6s;
+}
+.hover_me:hover {
+  transform: scale(1.1);
+}
+.adjust-carousel2 {
+  width:100%;
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.adjust-carousel {
+  width:100%;
+  max-height: 200px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color:#D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-dark {
+     background-color: grey;
+}
+
+.row1
+{
+	margin:00px auto;
+	padding: 00px 30px 70px 00px;
+	/*border-bottom:1px ridge;*/
+	min-height:60px;
+}
+/*.footer
+{
+	background-color:rgb(220,200,250);
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+	padding:70px 30px 70px 30px;
+	margin: 0px auto;
+	background-color:rgb(150,107,210);
+	color:floralwhite;
+}
+.address
+{
+	font-size: 80%;
+	margin: 0px;
+}*/
+
+input[type=radio] {
+    width:15px;
+    height:15px;
+	background-color: #d1d3d1;
+    content: '';
+    display: inline;
+	visibility: visible;
+     border: 2px solid white;
+	 background-color: #d1d3d1;
+}
+.btn-xl {
+    padding: 10px 50px;
+    /*font-size: 20px;*/
+    /*border-radius: 10px;*/
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+	background-size:cover;
+	background-image:C:\Users\Rajesh kumar\Documents\git-test\coursera\Bootstrap4\conFusion\NSS_POSTER.png;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+h1
+{
+	font-family:Calibri (Body);
+	font-size:56px;
+	letter-spacing:0px;
+}
+p
+{
+	font-family:Calibri (Body);
+	font-size:18px;
+	letter-spacing:0px;
+
+}
+..row-header{
+    margin:0px auto;
+    padding:0px;
+}
+
+
+
+body {
+  padding: 0px 0px 0px 0px;
+}
+nav a{
+  color: white;
+  text-shadow: black;
+}
+.black a{
+  color: black;
+}
+.margin_set {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.changing_component {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.hover_me {
+  transition: 0.6s;
+}
+.hover_me:hover {
+  transform: scale(1.1);
+}
+.adjust-carousel2 {
+  width:100%;
+  max-height: 500px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.adjust-carousel {
+  width:100%;
+  max-height: 200px;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color:#D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-dark {
+     background-color: grey;
+}
+
+.row1
+{
+	margin:00px auto;
+	padding: 00px 30px 70px 00px;
+	/*border-bottom:1px ridge;*/
+	min-height:60px;
+}
+/*.footer
+{
+	background-color:rgb(220,200,250);
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+	padding:70px 30px 70px 30px;
+	margin: 0px auto;
+	background-color:rgb(150,107,210);
+	color:floralwhite;
+}
+.address
+{
+	font-size: 80%;
+	margin: 0px;
+}*/
+
+input[type=radio] {
+    width:15px;
+    height:15px;
+	background-color: #d1d3d1;
+    content: '';
+    display: inline;
+	visibility: visible;
+     border: 2px solid white;
+	 background-color: #d1d3d1;
+}
+.btn-xl {
+    padding: 10px 50px;
+    /*font-size: 20px;*/
+    /*border-radius: 10px;*/
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+	background-size:cover;
+	background-image:C:\Users\Rajesh kumar\Documents\git-test\coursera\Bootstrap4\conFusion\NSS_POSTER.png;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+h1
+{
+	font-family:Calibri (Body);
+	font-size:56px;
+	letter-spacing:0px;
+}
+p
+{
+	font-family:Calibri (Body);
+	font-size:18px;
+	letter-spacing:0px;
+
+}
