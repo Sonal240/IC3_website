@@ -8,7 +8,7 @@ function nav_control_revert() {
   document.querySelector(".navbar_control").className= "navbar fixed-top navbar-expand-lg navbar_control" ;
 }
 
-document.addEventListner('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   if(document.querySelector(".navbar_control")) {
     console.log("u got it");
     $(window).on("scroll", function() {

@@ -1,7 +1,14 @@
 * {
     box-sizing: border-box;
   }
-  
+
+  .hover_me {
+    transition: 0.6s;
+  }
+  .hover_me:hover {
+    transform: scale(1.1);
+  }
+
   body {
     margin: 0;
     display: flex;
@@ -218,4 +225,3 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #355cc9;
   }
-  
