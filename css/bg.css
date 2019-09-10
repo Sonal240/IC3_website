@@ -7,7 +7,10 @@ body {
   0% {
     background-color: #954;
   }
-  100% {
+  50% {
     background-color: #889;
+  }
+  100% {
+    background-color: #954;
   }
 }

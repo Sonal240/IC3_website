@@ -7,20 +7,22 @@ function nav_control() {
 function nav_control_revert() {
   document.querySelector(".navbar_control").className= "navbar fixed-top navbar-expand-lg navbar_control" ;
 }
-if(document.querySelector(".navbar_control")) {
-  console.log("u got it");
-  $(window).on("scroll", function() {
-    var ypos = $(this).scrollTop(),
-    yper = (ypos/100);
-    if (yper > 1) {
-      nav_control();
-    }
-    else {
-      nav_control_revert();
-    }
-  });
-}
 
+document.addEventListner('DOMContentLoaded', function() {
+  if(document.querySelector(".navbar_control")) {
+    console.log("u got it");
+    $(window).on("scroll", function() {
+      var ypos = $(this).scrollTop(),
+      yper = (ypos/100);
+      if (yper > 1) {
+        nav_control();
+      }
+      else {
+        nav_control_revert();
+      }
+    });
+  }
+})
 
 function changeME(element) {
   switch (element) {
