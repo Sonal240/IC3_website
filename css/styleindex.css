@@ -7,6 +7,10 @@ nav a{
   color: white;
   text-shadow: black;
   font-size: 2em;
+  transition: .5s;
+}
+nav a:hover{
+  background-color: #F55;
 }
 .navbar-brand {
   font-size: 3em;
