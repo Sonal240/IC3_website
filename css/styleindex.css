@@ -3,6 +3,36 @@
     padding:0px;
 }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+.left_button {
+  border: solid 4px;
+  border-radius: 1000px;
+  color: red;
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  font-size: 4em;
+  float: left;
+  transition: 1s;
+}
+.left_button a{
+  color: red;
+}
+#main {
+  transition: margin-left .5s;
+}
+
 nav a{
   color: white;
   text-shadow: black;
