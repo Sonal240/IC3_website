@@ -10,8 +10,7 @@
     display: none;
   }
   </style>
-  <div class="changing_component margin_set scroll" >
-    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-1z" class="carousel slide" data-ride="carousel">
       <!--Indicators-->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-1z" data-slide-to="0"></li>
@@ -47,14 +46,13 @@
     </a>
       <!--/.Controls-->
     </div>
-  </div>
   <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../scripts/mainScript.js"></script>
   <script>
     $('.carousel').carousel({
-      interval: 1500,
+      interval: 2500,
       pause: false
     })
   </script>
