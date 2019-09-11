@@ -24,6 +24,7 @@
   left: 0px;
   font-size: 4em;
   float: left;
+  z-index: 1;
   transition: 1s;
 }
 .left_button a{
@@ -36,7 +37,7 @@
 nav a{
   color: white;
   text-shadow: black;
-  font-size: 2em;
+  font-size: 1em;
   transition: .5s;
 }
 nav a:hover{
