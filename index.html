@@ -19,14 +19,24 @@
       function openNav() {
         if(a)
         {
-          document.getElementById("mySidenav").style.width = "350px";
-          document.getElementById("main").style.marginLeft = "350px";
-          document.getElementById("mybtn").style.left = "350px";
+          document.getElementById("mySidenav").style.width = "30%";
+          document.getElementById("main").style.marginLeft = "30%";
+          document.getElementById("mybtn").style.left = "30%";
+          document.getElementById("mybtn").style.transform = "rotateY(180deg)";
+          document.getElementById("txt").style.display = "none";
+          document.getElementById("txt2").style.display = "block";
+          nav_control();
         }
         else {
           document.getElementById("mySidenav").style.width = "0px";
           document.getElementById("main").style.marginLeft = "0px";
           document.getElementById("mybtn").style.left = "0px";
+          document.getElementById("mybtn").style.transform = "rotateY(360deg)";
+          document.getElementById("txt").style.display = "block";
+          document.getElementById("txt2").style.display = "none";
+          if(document.getElementById("home").classList.contains("active")) {
+            nav_control_revert();
+          }
         }
         a=!a;
       }
@@ -80,7 +90,7 @@
   <div class="changing_component big " id="main" >
     <div id="carousel-1" class="carousel slide carousel-fade " >
       <div class="carousel-inner " role="listbox">
-        <div class="carousel-item active ">
+        <div class="carousel-item active " id="home">
           <iframe src="./components/homeComponent.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
         </div>
         <div class="carousel-item ">
@@ -111,7 +121,9 @@
     <h6>This is where to give important information</h6>
   </div>
   <div class="left_button" id="mybtn">
-    <a href="#mybtn" role="button" data-toggle="tooltip" data-placement="bottom" title="Notifications"><span onclick="openNav()">&#10148;</span></a>
+    <a href="#mybtn" id="rotate" role="button" data-toggle="tooltip" data-placement="bottom" title="Notifications"><span onclick="openNav();">&#10148;</span></a>
+    <br><h6 id="txt" style="display: block;">Click To read latest news.</h6>
+    <h6 id="txt2" style="display: none; transform: rotateY(180deg);">Click To Close.</h6>
   </div>
 
   <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
