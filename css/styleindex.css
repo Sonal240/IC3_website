@@ -15,12 +15,10 @@
   padding-top: 60px;
   transition: 0.5s;
 }
-.big-carousel {
-  height: 800px;
-}
+
 
 .carousel-item {
-  height: 900px;
+  height: 640px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -258,4 +256,3 @@ input[type=radio] {
      border: 2px solid white;
 	 background-color: #d1d3d1;
 }
-
