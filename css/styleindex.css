@@ -10,7 +10,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #555;
+  background-color: rgb(70, 125, 145);
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -29,9 +29,9 @@
 }
 
 .left_button {
-  border: solid 4px;
-  border-radius: 1000px;
-  color: red;
+  /*border: solid 4px;
+  border-radius: 1000px;*/
+  color: #001A35;
   position: fixed;
   top: 50%;
   left: 0px;
@@ -41,20 +41,21 @@
   transition: 1s;
 }
 .left_button a{
-  color: red;
+  color: #011A38;
+  transform: rotateY(180deg);
 }
 #main {
   transition: margin-left .5s;
 }
 
 nav a{
-  color: white;
+  color:white;
   text-shadow: black;
   font-size: 1em;
   transition: .5s;
 }
 nav a:hover{
-  background-color: #F55;
+  background-color:#85B5AD;
 }
 .navbar-brand {
   font-size: 3em;
@@ -107,7 +108,7 @@ nav a:hover{
 }
 
 .navbar-dark {
-     background-color: grey;
+     background-color: #012F43;
 }
 
 .row1
@@ -150,20 +151,20 @@ input[type=radio] {
     /*font-size: 20px;*/
     /*border-radius: 10px;*/
 }
-.jumbotron {
+/*.jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
 	background-size:cover;
 	background-image:C:\Users\Rajesh kumar\Documents\git-test\coursera\Bootstrap4\conFusion\NSS_POSTER.png;
     color:floralwhite;
-}
+}*/
 
 address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
-h1
+/*h1
 {
 	font-family:Calibri (Body);
 	font-size:56px;
@@ -176,10 +177,10 @@ p
 	letter-spacing:0px;
 
 }
-..row-header{
+.row-header{
     margin:0px auto;
     padding:0px;
-}
+}*/
 
 
 
@@ -187,7 +188,7 @@ body {
   padding: 0px 0px 0px 0px;
 }
 nav a{
-  color: white;
+  color:#020104;
   text-shadow: black;
 }
 .black a{
@@ -237,7 +238,7 @@ nav a{
 }
 
 .navbar-dark {
-     background-color: grey;
+     background-color:#012F43;
 }
 
 .row1
@@ -247,24 +248,6 @@ nav a{
 	/*border-bottom:1px ridge;*/
 	min-height:60px;
 }
-/*.footer
-{
-	background-color:rgb(220,200,250);
-	margin: 0px auto;
-	padding: 20px 0px 20px 0px;
-}
-.jumbotron{
-	padding:70px 30px 70px 30px;
-	margin: 0px auto;
-	background-color:rgb(150,107,210);
-	color:floralwhite;
-}
-.address
-{
-	font-size: 80%;
-	margin: 0px;
-}*/
-
 input[type=radio] {
     width:15px;
     height:15px;
@@ -275,34 +258,4 @@ input[type=radio] {
      border: 2px solid white;
 	 background-color: #d1d3d1;
 }
-.btn-xl {
-    padding: 10px 50px;
-    /*font-size: 20px;*/
-    /*border-radius: 10px;*/
-}
-.jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-	background-size:cover;
-	background-image:C:\Users\Rajesh kumar\Documents\git-test\coursera\Bootstrap4\conFusion\NSS_POSTER.png;
-    color:floralwhite;
-}
 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
-}
-h1
-{
-	font-family:Calibri (Body);
-	font-size:56px;
-	letter-spacing:0px;
-}
-p
-{
-	font-family:Calibri (Body);
-	font-size:18px;
-	letter-spacing:0px;
-
-}
