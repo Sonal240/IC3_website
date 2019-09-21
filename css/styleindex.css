@@ -10,7 +10,20 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(70, 125, 145);
+  background-color:  rgb(12, 82, 105);
+  overflow-x: hidden;
+  padding-top: 60px;
+  top: 15%;
+  transition: 0.5s;
+}
+.sidenav1 {
+  height: 85%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(12, 82, 105);
   overflow-x: hidden;
   padding-top: 60px;
   top: 15%;
@@ -25,6 +38,22 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.right_button {
+  /*border: solid 4px;
+  border-radius: 1000px;*/
+  color: #001A35;
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  font-size: 4em;
+  float: right;
+  z-index: 1;
+  transition: 1s;
+}
+.right_button a{
+  color: #011A38;
+  text-decoration-line: none;
 }
 
 .left_button {
@@ -41,9 +70,10 @@
 }
 .left_button a{
   color: #011A38;
+  text-decoration-line: none;
 }
 #main {
-  transition: margin-left .5s;
+  transition: .5s;
 }
 
 nav a{
@@ -116,24 +146,6 @@ nav a:hover{
 	/*border-bottom:1px ridge;*/
 	min-height:60px;
 }
-/*.footer
-{
-	background-color:rgb(220,200,250);
-	margin: 0px auto;
-	padding: 20px 0px 20px 0px;
-}
-.jumbotron{
-	padding:70px 30px 70px 30px;
-	margin: 0px auto;
-	background-color:rgb(150,107,210);
-	color:floralwhite;
-}
-.address
-{
-	font-size: 80%;
-	margin: 0px;
-}*/
-
 input[type=radio] {
     width:15px;
     height:15px;
@@ -149,38 +161,11 @@ input[type=radio] {
     /*font-size: 20px;*/
     /*border-radius: 10px;*/
 }
-/*.jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-	background-size:cover;
-	background-image:C:\Users\Rajesh kumar\Documents\git-test\coursera\Bootstrap4\conFusion\NSS_POSTER.png;
-    color:floralwhite;
-}*/
-
 address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
 }
-/*h1
-{
-	font-family:Calibri (Body);
-	font-size:56px;
-	letter-spacing:0px;
-}
-p
-{
-	font-family:Calibri (Body);
-	font-size:18px;
-	letter-spacing:0px;
-
-}
-.row-header{
-    margin:0px auto;
-    padding:0px;
-}*/
-
-
 
 body {
   padding: 0px 0px 0px 0px;

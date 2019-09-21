@@ -40,8 +40,51 @@
         }
         a=!a;
       }
+      function openNav1() {
+        if(a)
+        {
+          document.getElementById("mySidenav1").style.width = "30%";
+          document.getElementById("main").style.marginRight = "30%";
+          document.getElementById("mybtn1").style.right= "30%";
+          document.getElementById("mybtn1").style.transform = "rotateY(180deg)";
+          document.getElementById("txt1").style.display = "none";
+          document.getElementById("txt3").style.display = "block";
+          nav_control();
+        }
+        else {
+          document.getElementById("mySidenav1").style.width = "0px";
+          document.getElementById("main").style.marginRight = "0px";
+          document.getElementById("mybtn1").style.right = "0px";
+          document.getElementById("mybtn1").style.transform = "rotateY(360deg)";
+          document.getElementById("txt1").style.display = "block";
+          document.getElementById("txt3").style.display = "none";
+          if(document.getElementById("home").classList.contains("active")) {
+            nav_control_revert();
+          }
+        }
+        a=!a;
+      }
     </script>
 </head>
+<style>
+  .left_button a:hover {
+  color: yellow;
+}
+.right_button a:hover {
+  color: yellow;
+}
+#mybtn:hover{
+  color: yellow;
+}
+#mybtn1:hover{
+  color:yellow;
+}
+.s1:hover{
+  background-color:#85B5AD;
+  text-decoration: none;
+}
+
+</style>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar_control" id="navMain">
     <div class="container">
@@ -119,11 +162,60 @@
   </div>
   <div id="mySidenav" class="sidenav">
     <h6>This is where to give important information</h6>
+    <div>Latest Information</div>     
+	          
+	          <li style="align-content:justify; margin:30px;"> <span>&#128681;</span><a href="./files/IC3_2019_PO.pdf" class="s1" target="_blank" style="color:aliceblue;">Click Here for IC3-2019 Program Overview </a> </li> <br />
+	          <li style="align-content:justify; margin:30px;"> <span>&#128681;</span><a href="./files/IC3_2019_PPS.pdf" class="s1" target="_blank" style="color:aliceblue;">Click Here for IC3-2019 Paper Presentation Schedule </a> </li> <br />
+	          <li style="align-content:justify; margin:30px;"> <a href="./files/iaap.pdf" class="s1" target="_blank" style="color:aliceblue;">Click Here for Instructions to Authors of Accepted Papers</a> </li> <br />
+            <li style="align-content:justify; margin:30px;"> <a href="./files/ecopyrightHelp.pdf" class="s1" target="_blank" style="color:aliceblue;"> Click Here  for Help file to fill E-Copyright on EDAS</a> </li> <br />
+	          <li style="align-content:justify; margin:30px;">  Acceptance / rejection notifications has been sent to the authors </li> <br />
+	          <li style="align-content:justify; margin:30px;"> <a href="./files/ic3_2019_registration.pdf" class="s1" target="_blank" style="color:aliceblue;">Click Here for IC3-2019 Registration Details</a> </li> <br />
+	          <li style="align-content:justify; margin:30px;"> Last Date for Full Paper Submission is extended to 09<sup>th</sup> May, 2019 </li> <br />
+	          <li style="align-content:justify; margin:30px;"> <a href="https://edas.info/newPaper.php?c=25401" class="s1" target="_blank" style="color:aliceblue;">Click here to submit the paper</a> </li> <br />
+	          <li style="align-content:justify; margin:30px;"> <a href="./files/IC3_2019_CFP.pdf" class="s1" target="_blank" style="color:aliceblue;">Click here to download Call for Papers</a> </li> <br />
+	          <li style="align-content:justify; margin:30px;"> Google scholar metrics shows h5-index is 14 and h5-median is 21 for IC3 </li> <br /> 
+			     <li style="align-content:justify; margin:30px;"> Proceedings of IC3 2009 to IC3 2018 are indexed by SCOPUS as well as DBLP </li> <br /> 
+			   
+	      </div>	
   </div>
   <div class="left_button" id="mybtn">
-    <a href="#mybtn" id="rotate" role="button" data-toggle="tooltip" data-placement="bottom" title="Notifications"><span onclick="openNav();">&#10148;</span></a>
-    <br><h6 id="txt" style="display: block;">Click To read latest news.</h6>
-    <h6 id="txt2" style="display: none; transform: rotateY(180deg);">Click To Close.</h6>
+    <a href="#mybtn" id="rotate" role="button"><span onclick="openNav();">&#11146;</span></a>
+    <br><h6 id="txt" style="display: block;">Latest Information</h6>
+    <h6 id="txt2" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
+  </div>
+  <div id="mySidenav1" class="sidenav1">
+    <h6>This is where to give important information</h6>
+    <div style="align-content:justify;margin:30px;">
+      <div><h3>Important Dates</h3></div>
+         <span class="s1">Conference Date</span> <br />
+           08-10 August, 2019 <br /><br />
+           <span class="s1">Full Paper Submission</span> <br />
+           <strike>01<sup>st</sup> May, 2019 <br /></strike/>
+            <strike>07<sup>th</sup> May, 2019 <br /></strike>
+            <b>09<sup>th</sup> May, 2019 </b><br /><br/>
+     <span class="s1">Author Notification</span> <br />
+           <strike>15<sup>th</sup> June, 2019 <br /></strike>
+           20<sup>th</sup> June, 2019 <br /><br />
+     <span class="s1">Final Paper Submission</span> <br />
+           <strike>01<sup>st</sup> July, 2019 <br /></strike>
+           05<sup>th</sup> July, 2019 <br />
+   </div>	
+     
+ <div style="align-content:justify;margin:30px;">
+      <div>Proceedings</div>
+      Accepted papers, only when presented in the Conference (numbered <b>46690</b> in the IEEE Record) by duly registered authors, will be submitted for inclusion to IEEE Xplore. <br/><br/>
+  IEEE Conference record number <b>46690</b> <br /><br/>
+      <span class="auto-style3">IC3 Publishers</span> <br />
+  2013-2018 - IEEE <br /> 			
+  2009-2012 - Springer <br />
+  2008 - Macmillan <br />
+    </div>
+</div>
+  </div>
+  <div class="right_button" id="mybtn1">
+    <a href="#mybtn1" id="rotate" role="button"><span onclick="openNav1();">&#11144;</span></a>
+    <br><h6 id="txt1" style="display: block;">Important Dates</h6>
+    <h6 id="txt3" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
   </div>
 
   <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
