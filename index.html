@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <script>
-      var a=true;
-      function openNav() {
-        if(a)
+      var a1=true;
+      var a2=true;
+      var a3=false;
+      function openNav1() {
+        if(a1)
         {
           document.getElementById("mySidenav").style.width = "30%";
           document.getElementById("main").style.marginLeft = "30%";
@@ -25,7 +27,6 @@
           document.getElementById("mybtn").style.transform = "rotateY(180deg)";
           document.getElementById("txt").style.display = "none";
           document.getElementById("txt2").style.display = "block";
-          nav_control();
         }
         else {
           document.getElementById("mySidenav").style.width = "0px";
@@ -34,14 +35,26 @@
           document.getElementById("mybtn").style.transform = "rotateY(360deg)";
           document.getElementById("txt").style.display = "block";
           document.getElementById("txt2").style.display = "none";
+        }
+        a1=!a1;
+        console.log("a1: ",a1);
+        if(a1&&a2) {
+          a3=true;
+        }
+        else {
+          a3=false;
+        }
+        if(a3) {
           if(document.getElementById("home").classList.contains("active")) {
             nav_control_revert();
           }
         }
-        a=!a;
+        else {
+          nav_control();
+        }
       }
-      function openNav1() {
-        if(a)
+      function openNav2() {
+        if(a2)
         {
           document.getElementById("mySidenav1").style.width = "30%";
           document.getElementById("main").style.marginRight = "30%";
@@ -49,7 +62,6 @@
           document.getElementById("mybtn1").style.transform = "rotateY(180deg)";
           document.getElementById("txt1").style.display = "none";
           document.getElementById("txt3").style.display = "block";
-          nav_control();
         }
         else {
           document.getElementById("mySidenav1").style.width = "0px";
@@ -58,11 +70,23 @@
           document.getElementById("mybtn1").style.transform = "rotateY(360deg)";
           document.getElementById("txt1").style.display = "block";
           document.getElementById("txt3").style.display = "none";
+        }
+        a2=!a2;
+        console.log("a2: ",a2);
+        if(a1&&a2) {
+          a3=true;
+        }
+        else {
+          a3=false;
+        }
+        if(a3) {
           if(document.getElementById("home").classList.contains("active")) {
             nav_control_revert();
           }
         }
-        a=!a;
+        else {
+          nav_control();
+        }
       }
     </script>
 </head>
@@ -315,7 +339,7 @@
 	      </div>
   </div>
   <div class="left_button" id="mybtn">
-    <a href="#mybtn" id="rotate" role="button"><span onclick="openNav();">&#11146;</span></a>
+    <a href="#mybtn" id="rotate" role="button"><span onclick="openNav1();">&#11146;</span></a>
     <br><h6 id="txt" style="display: block;">Latest Information</h6>
     <h6 id="txt2" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
   </div>
@@ -349,7 +373,7 @@
 </div>
   </div>
   <div class="right_button" id="mybtn1">
-    <a href="#mybtn1" id="rotate" role="button"><span onclick="openNav1();">&#11144;</span></a>
+    <a href="#mybtn1" id="rotate" role="button"><span onclick="openNav2();">&#11144;</span></a>
     <br><h6 id="txt1" style="display: block;">Important Dates</h6>
     <h6 id="txt3" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
   </div>
