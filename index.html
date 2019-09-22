@@ -83,8 +83,42 @@
   background-color:#85B5AD;
   text-decoration: none;
 }
-
-</style>
+::-webkit-scrollbar {
+    display: none;
+  }
+    .marquee {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .marquee-content {
+      display: inline-block;
+      margin: 30px;
+      /*animation: marquee 15s linear infinite;*/
+      animation: marquee 3s linear 1s infinite running;
+    }
+    .item-collection-1 {
+      position: relative;
+      left: 0%;
+      right:0%;
+      /*animation: slidein 15s linear infinite;*/
+      animation: marquee 3s linear 1s infinite running;
+    }
+    .marquee-content:hover {
+      animation-play-state: paused
+    }
+    
+    @keyframes marquee {
+      0% {
+        transform: translateY(0)
+      }
+      100% {
+        transform: translateY(-100%)
+      }
+    }
+  </style>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar_control" id="navMain">
     <div class="container">
@@ -301,123 +335,130 @@
     </div>
   </div>
   <div id="mySidenav" class="sidenav">
-    <div> <h2 style="color:#012F43; margin:10px;">Latest Information</h2></div>    
-	        <ul class="list-unstyled">
-            <marquee behaviour="scroll" direction="up" loop="infinite" scrollamount="20">
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="./files/IC3_2019_PO.pdf" target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click Here for IC3-2019 Program Overview</h4> 
-                </a> 
-            </li>
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="./files/IC3_2019_PPS.pdf" target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click Here for IC3-2019 Paper Presentation Schedule</h4>
-                </a> 
-            </li>
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="./files/iaap.pdf" target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click Here for Instructions to Authors of Accepted Papers</h4>
-                </a> 
-            </li>
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="./files/ecopyrightHelp.pdf" target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click Here  for Help file to fill E-Copyright on EDAS</h4>
-                </a> 
-            </li> 
-            <li style="align-content:justify; margin:30px;">
-              <h4 class="s1" style="color:#012F43;">Acceptance / rejection notifications has been sent to the authors </h4> 
-            </li>
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="./files/ic3_2019_registration.pdf" target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click Here for IC3-2019 Registration Details</h4>
-                </a>
-            </li>
-            <li style="align-content:justify; margin:30px;">
-              <h4 style="color:#012F43;" class="s1"> Last Date for Full Paper Submission is extended to 09<sup>th</sup> May, 2019</h4> 
-            </li>
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="https://edas.info/newPaper.php?c=25401"  target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click here to submit the paper</h4>
-                </a> 
-            </li> 
-            <li style="align-content:justify; margin:30px;"> 
-              <span>&#128681;</span>
-                <a href="./files/IC3_2019_CFP.pdf" target="_blank" style="color: #012F43;">
-                  <h4 class="s1">Click here to download Call for Papers</h4>
-                </a> 
-            </li> 
-            <li style="align-content:justify; margin:30px;">
-              <h4 style="color:#012F43;" class="s1">Google scholar metrics shows h5-index is 14 and h5-median is 21 for IC3 </h4>
-            </li>  
-          <li style="align-content:justify; margin:30px;">
-            <h4 style="color:#012F43;" class="s1">Proceedings of IC3 2009 to IC3 2018 are indexed by SCOPUS as well as DBLP </h4>
-          </li>  
-         </marquee>
-        </ul>
-        
-      </div>	
-  
-    </div>
+     <div> <h2 style="color:#012F43; margin:10px;">Latest Information</h2></div>  
+      <div class="marquee">
+        <div class="marquee-content">
+          <span class="item-collection-1">  
+              <ul class="list-unstyled">
+                <!--marquee behaviour="scroll" direction="up" loop="infinite" scrollamount="100"-->
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="./files/IC3_2019_PO.pdf" target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click Here for IC3-2019 Program Overview</h4> 
+                    </a> 
+                </li>
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="./files/IC3_2019_PPS.pdf" target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click Here for IC3-2019 Paper Presentation Schedule</h4>
+                    </a> 
+                </li>
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="./files/iaap.pdf" target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click Here for Instructions to Authors of Accepted Papers</h4>
+                    </a> 
+                </li>
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="./files/ecopyrightHelp.pdf" target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click Here  for Help file to fill E-Copyright on EDAS</h4>
+                    </a> 
+                </li> 
+                <li style="align-content:justify;">
+                  <h4 class="s1" style="color:#012F43;">Acceptance / rejection notifications has been sent to the authors </h4> 
+                </li>
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="./files/ic3_2019_registration.pdf" target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click Here for IC3-2019 Registration Details</h4>
+                    </a>
+                </li>
+                <li style="align-content:justify;">
+                  <h4 style="color:#012F43;" class="s1"> Last Date for Full Paper Submission is extended to 09<sup>th</sup> May, 2019</h4> 
+                </li>
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="https://edas.info/newPaper.php?c=25401"  target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click here to submit the paper</h4>
+                    </a> 
+                </li> 
+                <li style="align-content:justify;"> 
+                  <span>&#128681;</span>
+                    <a href="./files/IC3_2019_CFP.pdf" target="_blank" style="color: #012F43;">
+                      <h4 class="s1">Click here to download Call for Papers</h4>
+                    </a> 
+                </li> 
+                <li style="align-content:justify;">
+                  <h4 style="color:#012F43;" class="s1">Google scholar metrics shows h5-index is 14 and h5-median is 21 for IC3 </h4>
+                </li>  
+              <li style="align-content:justify;">
+                <h4 style="color:#012F43;" class="s1">Proceedings of IC3 2009 to IC3 2018 are indexed by SCOPUS as well as DBLP </h4>
+              </li>  
+             <!--marquee-->
+            </ul>
+            
+          </div>	
+      
+        </div>
+           </span>
+        </div>
+      </div>
+   
   <div class="left_button" id="mybtn">
     <a href="#mybtn" id="rotate" role="button"><span onclick="openNav();">&#11146;</span></a>
     <br><h6 id="txt" style="display: block;">Latest Information</h6>
     <h6 id="txt2" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
   </div>
   <div id="mySidenav1" class="sidenav1">
-    <div style="align-content:justify;margin:30px;">
       <h2 style="color: #012F43;margin: 10px;">Important Dates</h2>
-      <ul class="list-unstyled">
-        <marquee behaviour="scroll" direction="up" loop="infinite" scrollamount="20">
-          <li style="color: #012F43;">
-         <h4>Conference Date:</h4>
-         <h6>11 November, 2020</h6> 
-          </li>
-          <li style="color: #012F43;">
-           <span class="s1">
-              <h4>Full Paper Submission:</h4>
-                <strike>01<sup>st</sup> May, 2020 <br/></strike>
-                <strike>07<sup>th</sup> May, 2020 <br/></strike>
-                <b>09<sup>th</sup> May, 2020 </b><br/><br/>
-            </span> 
-          </li>
-          <li style="color: #012F43;">
-           <span class="s1">
-              <h4>Author Notification:</h4>
-               <strike>15<sup>th</sup> June, 2019 <br/></strike>
-               20<sup>th</sup> June, 2019 <br/><br/>
-            <span>
-           </li> 
-           <li style="color: #012F43;">
-            <span class="s1">
-              <h4>Final Paper Submission:</h4>
-                <strike>01<sup>st</sup> July, 2019 <br/></strike>
-                05<sup>th</sup> July, 2019 <br />
-            </span>
-          </li>	
-          <li style="color: #012F43;">
-          <h3>Proceedings:</h3>
-          Accepted papers, only when presented in the Conference 
-          (numbered <b>46690</b> in the IEEE Record) by duly registered authors, 
-          will be submitted for inclusion to IEEE Xplore. <br/><br/>
-          IEEE Conference record number <b>46690</b> <br /><br/>
-        </li>
-        <li style="color: #012F43;">
-      <span class="s1">
-        <h4>IC3 Publishers:</h4>
-        2013-2018 - IEEE <br> 			
-        2009-2012 - Springer <br>
-        2008 - Macmillan <br>
-      </span>
-      </li>
-    </marquee>
-  </ul> 
-    </div>
+      <div class="marquee">
+        <div class="marquee-content">
+          <div class="item-collection-1">
+              <ul class="list-unstyled">
+                  <!--marquee behaviour="scroll" direction="up" loop="infinite" scrollamount="100"-->
+                    <li>
+                        <h4 style="color: #012F43;" class="s1">Conference Date:</h4>
+                        <h6 style="color: #012F43;">11 November, 2020</h6> 
+                    </li>
+                    <li>
+                            <h4 style="color: #012F43;" class="s1">Full Paper Submission:</h4>
+                            <strike style="color: #012F43;">01<sup>st</sup> May, 2020 <br/></strike>
+                            <strike style="color: #012F43;">07<sup>th</sup> May, 2020 <br/></strike>
+                            <b style="color: #012F43;">09<sup>th</sup> May, 2020 </b><br/><br>
+                    </li>
+                    <li>
+                        <h4 style="color: #012F43;" class="s1">Author Notification:</h4>
+                         <strike style="color: #012F43;">15<sup>th</sup> June, 2019 <br/></strike>
+                         <b style="color: #012F43;">20<sup>th</sup> June, 2019 </b>
+                     </li> 
+                     <li>
+                    
+                        <h4 style="color: #012F43;" class="s1">Final Paper Submission:</h4>
+                          <strike style="color: #012F43;">01<sup>st</sup> July, 2019 <br/></strike>
+                         <b style="color: #012F43;"> 05<sup>th</sup> July, 2019 </b>
+                      
+                    </li>	
+                    <li>
+                    <h3 style="color: #012F43;" class="s1">Proceedings:</h3>
+                    <p style="color: #012F43;" class="s1">Accepted papers, only when presented in the Conference 
+                    (numbered <b>46690</b> in the IEEE Record) by duly registered authors, 
+                    will be submitted for inclusion to IEEE Xplore. <br/><br/>
+                    IEEE Conference record number <b>46690</b> </p>
+                  </li>
+                  <li>
+                
+                  <h4 style="color: #012F43;" class="s1">IC3 Publishers:</h4>
+                  <p style="color: #012F43;">2013-2018 - IEEE </p> 			
+                  <p style="color: #012F43;">2009-2012 - Springer </p>
+                  <p style="color: #012F43;">2008 - Macmillan </p>
+                
+                </li>
+              <!--marquee-->
+            </ul> 
+          </div>
+        </div>
+      </div>
 </div>
   </div>
   <div class="right_button" id="mybtn1">
