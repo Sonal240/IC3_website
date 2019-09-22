@@ -121,27 +121,46 @@
       display: inline-block;
       margin: 30px;
       /*animation: marquee 15s linear infinite;*/
-      animation: marquee 3s linear 1s infinite running;
+      animation: marquee 10s linear infinite running;
     }
     .item-collection-1 {
       position: relative;
       left: 0%;
       right:0%;
       /*animation: slidein 15s linear infinite;*/
-      animation: marquee 3s linear 1s infinite running;
+      animation: marquee 10s linear  infinite running;
     }
     .marquee-content:hover {
       animation-play-state: paused
     }
-    
-    @keyframes marquee {
-      0% {
+    @-moz-keyframes marquee {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(0, -100%); }
+      }
+      @-webkit-keyframes marquee {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(0, -100%); }
+      }
+      @keyframes marquee {
+      0%   { 
+      -moz-transform: translate(0, 0);
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+      100% { 
+      -moz-transform: translate(0, -100%);
+      -webkit-transform: translate(0, -100%);
+      transform: translate(0, -100%); }
+      }
+    /*@keyframes marquee {
+     /* 0% {
         transform: translateY(0)
       }
       100% {
         transform: translateY(-100%)
-      }
-    }
+      }*/
+    /*  0%   { -webkit-transform: translate(0, 0); }
+  100% { -webkit-transform: translate(0, -100%); }
+    }*/
   </style>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar_control" id="navMain">
