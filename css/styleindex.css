@@ -10,7 +10,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:  #7395AE;
+  background-color:  #D7CEC7;
   overflow-x: hidden;
   padding-top: 60px;
   top: 15%;
@@ -23,7 +23,7 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #7395AE;
+  background-color:  #D7CEC7;
   overflow-x: hidden;
   padding-top: 60px;
   top: 15%;
@@ -42,7 +42,7 @@
 .right_button {
   /*border: solid 4px;
   border-radius: 1000px;*/
-  color: #001A35;
+  color: #3f3e3e;
   position: fixed;
   top: 50%;
   right: 0px;
@@ -52,14 +52,14 @@
   transition: 1s;
 }
 .right_button a{
-  color: #011A38;
+  color: #3f3e3e;;
   text-decoration-line: none;
 }
 
 .left_button {
   /*border: solid 4px;
   border-radius: 1000px;*/
-  color: #001A35;
+  color: #3f3e3e;;
   position: fixed;
   top: 50%;
   left: 0px;
@@ -69,7 +69,7 @@
   transition: 1s;
 }
 .left_button a{
-  color: #011A38;
+  color: #3f3e3e;;
   text-decoration-line: none;
 }
 #main {
@@ -83,7 +83,8 @@ nav a{
   transition: .5s;
 }
 nav a:hover{
-  background-color:#85B5AD;
+  background-color:#76323F;
+  color:white;
 }
 .navbar-brand {
   font-size: 3em;
@@ -136,7 +137,7 @@ nav a:hover{
 }
 
 .navbar-dark {
-     background-color: #012F43;
+     background-color: tan;
 }
 
 .row1
@@ -221,7 +222,7 @@ nav a{
 }
 
 .navbar-dark {
-     background-color:#012F43;
+     background-color:tan;
 }
 
 .row1
