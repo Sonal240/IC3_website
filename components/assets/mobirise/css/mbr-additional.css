@@ -809,3 +809,62 @@ section.lazy-placeholder:after {
 .cid-rFKbkjS7oA H2 {
   color: #0f7699;
 }
+.cid-rFMcY70WNV {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ebdbdb;
+}
+.cid-rFMcY70WNV .mbr-section-text {
+  color: #767676;
+}
+.cid-rFMcY70WNV .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rFMcY70WNV .tabcont {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rFMcY70WNV .mbr-iconfont {
+  font-size: 48px;
+}
+.cid-rFMcY70WNV .card-img {
+  margin-bottom: 1.5rem;
+}
+.cid-rFMcY70WNV .tab-content-row {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rFMcY70WNV .tab-content {
+  margin-top: 3rem;
+  width: 100%;
+}
+.cid-rFMcY70WNV .nav-tabs {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: none;
+}
+.cid-rFMcY70WNV .nav-tabs .nav-link {
+  box-sizing: border-box;
+  color: #767676;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+  margin: 0.4rem .8rem !important;
+  transition: color .3s;
+  border: 2px solid #767676;
+}
+.cid-rFMcY70WNV .nav-tabs .nav-link:hover {
+  background: #149dcc;
+}
+.cid-rFMcY70WNV .nav-tabs .nav-link.active {
+  color: #ffffff;
+  font-style: normal;
+  border: 2px solid #149dcc;
+  background: #149dcc;
+}
+.cid-rFMcY70WNV .nav-tabs .nav-link.active:hover {
+  border: 2px solid #149dcc;
+}
