@@ -1,0 +1,29 @@
+{
+  "name": "ic3_website",
+  "version": "1.0.0",
+  "description": "This is website required to complete....",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-social": "^5.1.1",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyashsingh234/IC3_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyashsingh234/IC3_website/issues"
+  },
+  "homepage": "https://github.com/suyashsingh234/IC3_website#readme"
+}
