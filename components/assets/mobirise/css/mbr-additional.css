@@ -857,14 +857,14 @@ section.lazy-placeholder:after {
   border: 2px solid #767676;
 }
 .cid-rFMcY70WNV .nav-tabs .nav-link:hover {
-  background: #149dcc;
+  background: #ff7f9f;
 }
 .cid-rFMcY70WNV .nav-tabs .nav-link.active {
   color: #ffffff;
   font-style: normal;
-  border: 2px solid #149dcc;
-  background: #149dcc;
+  border: 2px solid #ff7f9f;
+  background: #ff7f9f;
 }
 .cid-rFMcY70WNV .nav-tabs .nav-link.active:hover {
-  border: 2px solid #149dcc;
+  border: 2px solid #ff7f9f;
 }
