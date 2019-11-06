@@ -31,8 +31,8 @@
   transition: 0.5s;
   border-radius: 10%;
 }
-.confName {
-
+.navbar {
+  height: 10%;
 }
 .logo {
   background: url('../images/jiit.jpg') no-repeat;
