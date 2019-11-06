@@ -11,8 +11,8 @@
   </head>
 <body>
   <style>
-  ::-webkit-scrollbar {
-    display: none;
+  body {
+    overflow-x: hidden;
   }
   .header-text {
     position: absolute;
@@ -37,7 +37,7 @@
 	padding: 15px;
 }
 .carousel {
-  width: 500px;
+  width: 130%;
   border: 2px solid black;
   border-top: 3px solid #47a3da;
 }
@@ -45,7 +45,7 @@
   </style>
   <div class="row">
     <div class="col-4">
-      <div class="card">
+      <td><div class="card">
         <div  class="carousel slide carousel-slide" data-ride="carousel"  data-interval="5000" data-pause="false">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item ">
@@ -318,7 +318,7 @@
 
   }
   ::-webkit-scrollbar {
-    display: none;
+    display:;
   }
     .marquee {
       width: 100%;
