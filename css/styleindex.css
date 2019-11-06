@@ -6,32 +6,59 @@
 .sidenav {
   height: 55%;
   width: 25%;
-  position: fixed;
+  position: relative;
+  float: left;
   z-index: 1;
   top: 0;
   left: 0;
   background-color:  #D7CEC7;
   overflow-x: hidden;
   padding-top: 60px;
-  top: 45%;
+  top: 0%;
   transition: 0.5s;
   border-radius: 10%;
 }
 .sidenav1 {
   height: 55%;
   width: 25%;
-  position: fixed;
+  position: relative;
+  float:right;
   z-index: 1;
   top: 0;
   right: 0;
   background-color:  #D7CEC7;
   overflow-x: hidden;
   padding-top: 60px;
-  top: 45%;
+  top: 25%;
   transition: 0.5s;
   border-radius: 10%;
 }
-
+<div class="header-text hidden-xs">
+          <div class="col-md-12 text-center">
+            <section class="countdown2 cid-rFKbkjS7oA" id="countdown2-a">
+              <div class="container">
+                  <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2"><strong><em>
+                      Welcome to FICS Conference</em></strong></h2>
+              </div>
+              <div class="container pt-5 mt-2">
+                  <div class=" countdown-cont align-center p-4">
+                      <div class="event-name align-left mbr-white ">
+                          <h4 class="mbr-fonts-style display-5">Venue: JIIT 128</h4>
+                      </div>
+                      <div class="countdown align-center py-2" data-due-date="2020/11/05">
+                      </div>
+                      <div class="daysCountdown" title="Days"></div>
+                      <div class="hoursCountdown" title="Hours"></div>
+                      <div class="minutesCountdown" title="Minutes"></div>
+                      <div class="secondsCountdown" title="Seconds"></div>
+                      <div class="event-date align-left mbr-white">
+                          <h5 class="mbr-fonts-style display-7">Date: 5-7th November, 2020</h5>
+                      </div>
+                  </div>
+              </div>
+            </section>
+          </div>
+      </div>
 
 .carousel-item {
   height: 100%;
