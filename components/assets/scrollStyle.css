@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0,0,0,0.1);
+  z-index: -1;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
+::-webkit-scrollbar-track-piece {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  z-index: 2;
+  border-radius: 20%;
+  background-color: rgba(0,0,900,0.2);
+}
+::-webkit-scrollbar-corner {
+  display: none;
+}
+::-webkit-resizer {
+  display: none;
+}
