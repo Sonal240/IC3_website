@@ -4,8 +4,8 @@
 }
 
 .sidenav {
-  height: 85%;
-  width: 0;
+  height: 55%;
+  width: 25%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -13,12 +13,13 @@
   background-color:  #D7CEC7;
   overflow-x: hidden;
   padding-top: 60px;
-  top: 15%;
+  top: 45%;
   transition: 0.5s;
+  border-radius: 10%;
 }
 .sidenav1 {
-  height: 85%;
-  width: 0;
+  height: 55%;
+  width: 25%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -26,8 +27,9 @@
   background-color:  #D7CEC7;
   overflow-x: hidden;
   padding-top: 60px;
-  top: 15%;
+  top: 45%;
   transition: 0.5s;
+  border-radius: 10%;
 }
 
 
