@@ -1,11 +1,11 @@
 console.log("updated");
 
 function nav_control() {
-  document.querySelector(".navbar_control").className= "navbar fixed-top navbar-expand-lg navbar_control navbar-dark" ;
+  document.querySelector(".navbar_control").className= "navbar  navbar-expand-lg navbar_control navbar-dark" ;
 }
 
 function nav_control_revert() {
-  document.querySelector(".navbar_control").className= "navbar fixed-top navbar-expand-lg navbar_control" ;
+  document.querySelector(".navbar_control").className= "navbar  navbar-expand-lg navbar_control" ;
 }
 
 /*document.addEventListener('DOMContentLoaded', function() {
