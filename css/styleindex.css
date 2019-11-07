@@ -12,13 +12,14 @@
 .logo {
   background: url('../images/jiit.jpg') no-repeat;
   background-size: contain;
+  background-position: center;
   width: 100%;
   height: 22vh;
   font-weight: bold;
 }
 .logo-2 {
   background: url('../images/nebrasca.png') no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position: center;
   width: 100%;
   height: 22vh;
@@ -27,29 +28,33 @@
   .confName {
     background: url('../images/jiit.png') no-repeat;
     background-size: contain;
+    background-position: center;
     width: 100%;
     height: 10vh;
   }
   .logo {
     background: url('../images/jiit.jpg') no-repeat;
     background-size: contain;
+    background-position: center;
     width: 100%;
     height: 10vh;
     font-weight: bold;
   }
   .logo-2 {
-    background: url('../images/cist.jpg') no-repeat;
+    background: url('../images/nebrasca.png') no-repeat;
     background-size: contain;
+    background-position: center;
     width: 100%;
     height: 10vh;
   }
 }
+
 iframe {
   overflow-y: auto;
   overflow-x: hidden;
 }
 .carousel-item {
-  height: 65vh;
+  height: 70vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -114,6 +119,7 @@ nav a:hover{
   margin: 0px 0px 0px 0px;
 }
 .changing_component {
+  height:
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
@@ -192,10 +198,6 @@ nav a{
   color: black;
 }
 .margin_set {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
-.changing_component {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
