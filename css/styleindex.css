@@ -29,7 +29,7 @@ iframe {
   overflow-x: hidden;
 }
 .carousel-item {
-  height: 65vh;
+  height: 70vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
