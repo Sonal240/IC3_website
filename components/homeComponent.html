@@ -8,11 +8,12 @@
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="./assets/scrollStyle.css">
   </head>
 <body>
   <style>
-  ::-webkit-scrollbar {
-    display: none;
+  body {
+    overflow-x: hidden;
   }
   .header-text {
     position: absolute;
@@ -37,15 +38,15 @@
 	padding: 15px;
 }
 .carousel {
-  width: 500px;
+  width: 130%;
   border: 2px solid black;
   border-top: 3px solid #47a3da;
 }
 
   </style>
-  <div class="row card-deck">
+  <div class="row">
     <div class="col-4">
-      <div class="card">
+      <td><div class="card">
         <div  class="carousel slide carousel-slide" data-ride="carousel"  data-interval="5000" data-pause="false">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item ">
@@ -109,7 +110,7 @@
   <!--div class="d-flex justify-content-between"-->
     <!--div-->
     <div class="card-deck">
-        <div class="card mb-4 border border-danger" style="height:18rem">
+        <div class="card mb-4 border border-danger" style="height:25rem; border-radius: 20px; margin-top:10%;">
             <h4 style="text-align: center" class="card-title p-3">Latest Information</h4>
             <div class="marquee card-body">
                 <div class="marquee-content">
@@ -216,7 +217,7 @@
                 </h5>
       </div>
         <!--div class="d-flex justify-content-end" -->
-        <div class="card mb-4 border border-danger" style="height:18rem;">
+        <div class="card mb-4 border border-danger" style="height:25rem; border-radius: 20px; margin-top:10%;">
             <h4 style="text-align:center;" class="card-title p-3">Important Dates</h4>
             <div class="marquee card-body">
               <div class="marquee-content">
@@ -285,13 +286,13 @@
     <footer class="page-footer font-small blue pt-4" style="background-color: rgb(8, 46, 102); color: white;">
         <!-- Footer Links -->
         <div class="container-fluid text-center text-md-left">
-      
+
           <!-- Grid row -->
           <div class="row">
-      
+
             <!-- Grid column -->
             <div class="col-md-6 p-6">
-      
+
               <!-- Content -->
               <section class="countdown2 cid-rFKbkjS7oA" id="countdown2-a" style="margin-top: -2%; width: 105%; margin-left: -4%;background-color:rgb(8, 46, 102)">
                 <div class="container pt-5 mt-2">
@@ -312,9 +313,9 @@
                 </div>
             </section>
             </div>
-           
+
             <div class="col-md-6 p-6"  style="margin-top:2.5%;">
-      
+
                 <!-- Content -->
                 <h5 class="text-uppercase font-weight-bold">Contact Us</h5>
                 <address style="font-size: 100%;color: white;">
@@ -330,19 +331,19 @@
                     </address>
             </div>
             <!-- Grid column -->
-      
+
           </div>
           <!-- Grid row -->
-      
+
         </div>
         <!-- Footer Links -->
-      
+
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2008-2020 Copyright:
           <a href="http://www.jiit.ac.in/"> JIIT Noida</a>
         </div>
         <!-- Copyright -->
-      
+
       </footer>
       <!-- Footer -->
 
@@ -379,7 +380,7 @@
 
   }
   ::-webkit-scrollbar {
-    display: none;
+    display:;
   }
     .marquee {
       width: 100%;
