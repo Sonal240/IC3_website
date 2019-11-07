@@ -5,21 +5,23 @@
 .confName {
   background: url('../images/jiit.png') no-repeat;
   background-size: contain;
+  background-position: center;
   width: 100%;
-  height: 25vh;
+  height: 22vh;
 }
 .logo {
   background: url('../images/jiit.jpg') no-repeat;
   background-size: contain;
   width: 100%;
-  height: 25vh;
+  height: 22vh;
   font-weight: bold;
 }
 .logo-2 {
-  background: url('../images/cist.jpg') no-repeat;
+  background: url('../images/nebrasca.png') no-repeat;
   background-size: contain;
+  background-position: center;
   width: 100%;
-  height: 25vh;
+  height: 22vh;
 }
 @media (max-width: 640px) {
   .confName {
