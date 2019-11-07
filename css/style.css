@@ -38,11 +38,6 @@ body {
 	font-family: "Open Sans", Sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
 	font-weight: 300;
 	letter-spacing: 0.4px;
@@ -60,7 +55,7 @@ p {
 }
 
 .dark-bg p {
-color: #B1B1B1;	
+color: #B1B1B1;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -92,7 +87,7 @@ section {
 
 ul {
 	padding-left: 0;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 ul li {
@@ -144,8 +139,8 @@ section ul li:before {
 	font-family: "Open Sans",sans-serif;
 	padding: 0px;
 	margin-left: 10px;
-    
-    
+
+
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
 	color: #fec503
@@ -237,7 +232,7 @@ header {
 	position: absolute;
 	left: 0;
 	top: 38%;
-	width: 100%;	
+	width: 100%;
 }
 
 .owl-slider .owl-controls .owl-nav [class*=owl-] {
@@ -393,7 +388,7 @@ header {
 }
 .button-cta:hover {
 	color: #000;
-	background-color: #fff;	
+	background-color: #fff;
 	text-decoration: none;
 }
 
@@ -548,7 +543,7 @@ figure {
 	margin: 0 1px 1px 0;
 	background: #726FB9;
 	text-align: center;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 figcaption {
@@ -556,7 +551,7 @@ figcaption {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 
 .ot-portfolio-item figure figcaption > a {
@@ -664,7 +659,7 @@ figure.effect-bubba:hover p {
 }
 
 .dark-bg {
-	background-color: #333231;	
+	background-color: #333231;
 	color: #fff;
 }
 
@@ -697,7 +692,7 @@ figure.effect-bubba:hover p {
 	position: absolute;
 	left: 0;
 	top: 38%;
-	width: 100%;	
+	width: 100%;
 }
 
 .owl-portfolio .owl-controls .owl-nav [class*=owl-] {
@@ -853,7 +848,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: #000;
 }
 
 footer p {
@@ -881,12 +876,12 @@ footer p a span {
 --------------------*/
 
 .modal-content {
-	border-radius: 0;	
+	border-radius: 0;
 }
 .modal-header .close {
-	font-size: 30px;	
+	font-size: 30px;
 }
-.modal-title {	
+.modal-title {
 	text-transform: uppercase;
 	font-size: 23px;
 }
@@ -897,7 +892,7 @@ footer p a span {
 
 .modal-body p {
 	margin: 30px 20px;
-	color: #2D2D2D;		
+	color: #2D2D2D;
 }
 
 .modal-works {
@@ -1025,4 +1020,3 @@ and (max-width : 480px) {
 #07{
     color: aqua
 }
-
