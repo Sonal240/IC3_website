@@ -6,23 +6,8 @@
   width: 100%;
 }
 .confName {
-  background: url('../images/jiit.png') no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 100%;
-  height: 22vh;
-}
-.logo {
-  background: url('../images/jiit.jpg') no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 100%;
-  height: 22vh;
-  font-weight: bold;
-}
-.logo-2 {
-  background: url('../images/nebrasca.png') no-repeat;
-  background-size: contain;
+  background: url('../images/mainLogo.png') no-repeat;
+  background-size: 100% 22vh;
   background-position: center;
   width: 100%;
   height: 22vh;
