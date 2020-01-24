@@ -1,0 +1,275 @@
+<html>
+<head>
+  <title>FICS</title>
+	<link rel="icon" type="image/jpeg" href="logo.jpg">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/tether/tether.min.css">
+    <link rel="stylesheet" href="./assets/theme/css/style.css">
+    <link rel="stylesheet" href="./css/styleindex.css">
+    <link rel="preload" as="style" href="./assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <!--script>
+      var a1=true;
+      var a2=true;
+      var a3=false;
+      function openNav1() {
+        if(a1)
+        {
+          document.getElementById("mySidenav").style.width = "30%";
+          document.getElementById("main").style.marginLeft = "30%";
+          document.getElementById("mybtn").style.left = "30%";
+          document.getElementById("mybtn").style.transform = "rotateY(180deg)";
+          document.getElementById("txt").style.display = "none";
+          document.getElementById("txt2").style.display = "block";
+        }
+        else {
+          document.getElementById("mySidenav").style.width = "0px";
+          document.getElementById("main").style.marginLeft = "0px";
+          document.getElementById("mybtn").style.left = "0px";
+          document.getElementById("mybtn").style.transform = "rotateY(360deg)";
+          document.getElementById("txt").style.display = "block";
+          document.getElementById("txt2").style.display = "none";
+        }
+        a1=!a1;
+
+        if(a1&&a2) {
+          a3=true;
+        }
+        else {
+          a3=false;
+        }
+        if(a3) {
+          if(document.getElementById("home").classList.contains("active")) {
+            nav_control_revert();
+          }
+        }
+        else {
+          nav_control();
+        }
+      }
+      function openNav2() {
+        if(a2)
+        {
+          document.getElementById("mySidenav1").style.width = "30%";
+          document.getElementById("main").style.marginRight = "30%";
+          document.getElementById("mybtn1").style.right= "30%";
+          document.getElementById("mybtn1").style.transform = "rotateY(180deg)";
+          document.getElementById("txt1").style.display = "none";
+          document.getElementById("txt3").style.display = "block";
+        }
+        else {
+          document.getElementById("mySidenav1").style.width = "0px";
+          document.getElementById("main").style.marginRight = "0px";
+          document.getElementById("mybtn1").style.right = "0px";
+          document.getElementById("mybtn1").style.transform = "rotateY(360deg)";
+          document.getElementById("txt1").style.display = "block";
+          document.getElementById("txt3").style.display = "none";
+        }
+        a2=!a2;
+
+        if(a1&&a2) {
+          a3=true;
+        }
+        else {
+          a3=false;
+        }
+        if(a3) {
+          if(document.getElementById("home").classList.contains("active")) {
+            nav_control_revert();
+          }
+        }
+        else {
+          nav_control();
+        }
+      }
+    </script-->
+</head>
+<style>
+ /* .left_button a:hover {
+  color: #3f3e3e;;
+}
+.right_button a:hover {
+  color: #3f3e3e;;
+}
+#mybtn:hover{
+  color: #3f3e3e;;
+}
+#mybtn1:hover{
+  color: #3f3e3e;;
+}*/
+body {
+  font-family: Arial;
+}
+.s1:hover{
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+    .marquee {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .marquee-content {
+      display: inline-block;
+      margin: 30px;
+      /*animation: marquee 15s linear infinite;*/
+      animation: marquee 10s linear infinite running;
+    }
+    .item-collection-1 {
+      position: relative;
+      left: 0%;
+      right:0%;
+      /*animation: slidein 15s linear infinite;*/
+      animation: marquee 10s linear  infinite running;
+    }
+    .marquee-content:hover {
+      animation-play-state: paused
+    }
+    @-moz-keyframes marquee {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(0, -100%); }
+      }
+      @-webkit-keyframes marquee {
+      0%   { transform: translate(0, 0); }
+      100% { transform: translate(0, -100%); }
+      }
+      @keyframes marquee {
+      0%   {
+      -moz-transform: translate(0, 0);
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0); }
+      100% {
+      -moz-transform: translate(0, -100%);
+      -webkit-transform: translate(0, -100%);
+      transform: translate(0, -100%); }
+      }
+    /*@keyframes marquee {
+     /* 0% {
+        transform: translateY(0)
+      }
+      100% {
+        transform: translateY(-100%)
+      }*/
+    /*  0%   { -webkit-transform: translate(0, 0); }
+  100% { -webkit-transform: translate(0, -100%); }
+    }*/
+  </style>
+<body>
+  <div class="confName">
+  </div>
+  <nav class="navbar navbar-expand-lg navbar_control navbar-dark" id="navMain">
+    <div class="container">
+      <a class="navbar-brand" href="#" data-target="#carousel-1" data-slide-to="0"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" style="color: black;">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--div>
+          <script type="text/javascript" src="https://free-hit-counters.net/count/2nh8"></script>
+          </script>
+       </div-->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="nav1" data-target="#carousel-1" data-slide-to="0" href="#" >Home
+                  <!--span class="sr-only">(current)</span-->
+            </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="nav2" href="#" data-target="#carousel-1" data-slide-to="1" >About JIIT</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav2" href="#" data-target="#carousel-1" data-slide-to="2" >Technical Programme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav3" data-target="#carousel-1" href="#" data-slide-to="3" >Tracks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav4" data-target="#carousel-1" href="#" data-slide-to="4" >Organising Committee</a>
+          </li>
+  		    <li class="nav-item">
+            <a class="nav-link" id="nav6" data-target="#carousel-1" href="#" data-slide-to="6" >Advisory committee</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="nav2" href="#" data-target="#carousel-1" data-slide-to="5" >Our Sponsors</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav8" data-target="#carousel-1" href="#" data-slide-to="7" >For Authors</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="changing_component big " id="main" >
+    <div id="carousel-1" class="carousel slide carousel-fade " >
+      <div class="carousel-inner " role="listbox">
+        <div class="carousel-item active " id="home">
+          <iframe src="./components/homeComponent.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html"></iframe>
+        </div>
+        <div class="carousel-item ">
+            <iframe src="./components/aboutjiit.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+          </div>
+        <div class="carousel-item ">
+          <iframe src="./components/about.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+        <div class="carousel-item ">
+          <iframe src="./components/tracks.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+        <div class="carousel-item ">
+          <iframe src="./components/orgCommittee.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+        <div class="carousel-item ">
+          <iframe src="./components/pCommittee.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+        <div class="carousel-item ">
+          <iframe src="./components/dates.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+        <div class="carousel-item ">
+          <iframe src="./components/authors.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+        <div class="carousel-item ">
+          <iframe src="./components/contact.html" class="margin_set" id="noteMe" width="100%" height="100%" type="text/html" ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--div class="left_button" id="mybtn">
+    <a href="#mybtn" id="rotate" role="button"><span onclick="openNav1();" class= "fa fa-bell" ></span></a>
+    <br><h6 id="txt" style="display: block;">Latest Information</h6>
+    <h6 id="txt2" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
+  </div-->
+  <!--div class="right_button" id="mybtn1">
+    <a href="#mybtn1" id="rotate" role="button"><span class="fa fa-calendar" onclick="openNav2();"></span></a>
+    <br>
+    <h6 id="txt1" style="display:inline-flex;">Important Dates</h6>
+    <h6 id="txt3" style="display: none; transform: rotateY(180deg);">Click To Close</h6>
+  </div-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./assets/tether/tether.min.js"></script>
+  <script src="./assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="./assets/countdown/jquery.countdown.min.js"></script>
+  <script src="./assets/theme/js/script.js"></script>
+
+  <script>
+    $(".nav .nav-link").on("click", function(){
+       $(".nav").find(".active").removeClass("active");
+       $(this).addClass("active");
+      });
+  </script>
+</body>
+</html>
